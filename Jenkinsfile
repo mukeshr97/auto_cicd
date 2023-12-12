@@ -6,7 +6,7 @@ pipeline {
       // of the AWS Credentials saved in Jenkins
       AWS_CREDENTIALS = 'jenkins_user'
       // The region in which our CodeDeploy application and S3 Bucket are
-      AWS_REGION = 'us-east-2'
+      AWS_REGION = 'us-east-1'
       // This is the name of our CodeDeploy application
       CODEDEPLOY_APP = 'tutorial_application'
       // This is the name of the deployment group for our 
