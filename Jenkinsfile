@@ -14,7 +14,7 @@ pipeline {
       CODEDEPLOY_DEPLOYGROUP = 'tutorial_application_group'
       // This is the S3 bucket that we will be uploading our
       // releases to
-      S3_BUCKET = 'tutorial-application-bucket'
+      S3_BUCKET = 'tutorial-application-bucket-97'
       // This is what we want to name our release. For simplicity, 
       // I am keeping it as artifact.zip, but you could do something
       // that includes the Jenkins build number or the Git commit hash
